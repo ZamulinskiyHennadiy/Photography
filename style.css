@@ -7,6 +7,7 @@ h2 {
   font-size: 42px;
   margin-bottom: 80px;
 }
+
 img {
   border-radius: 20px;
   opacity: 0.8;
@@ -30,7 +31,7 @@ span {
 
 section>div>span:nth-child(2) {
   left: 20px;
-} 
+}
 
 section>div>span:nth-child(3) {
   right: 20px;
@@ -73,7 +74,7 @@ button:nth-of-type(2) {
   display: grid;
   gap: 30px;
   grid-template-rows: 370px 370px 370px;
-  grid-template-columns: 370px 370px 370px ;
+  grid-template-columns: 370px 370px 370px;
   justify-content: center;
   margin-bottom: 120px;
 }
