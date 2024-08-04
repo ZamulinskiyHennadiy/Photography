@@ -1,0 +1,241 @@
+body {
+  font-family: "Delius Unicase", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 80px;
+}
+img {
+  border-radius: 20px;
+  opacity: 0.8;
+  transition: 300ms;
+}
+
+div:hover>img {
+  opacity: unset;
+}
+
+div {
+  position: relative;
+}
+
+span {
+  font-family: "Roboto";
+  position: absolute;
+  bottom: 20px;
+  color: #fff;
+}
+
+section>div>span:nth-child(2) {
+  left: 20px;
+} 
+
+section>div>span:nth-child(3) {
+  right: 20px;
+}
+
+button {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 300ms;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:not(:hover) {
+  opacity: 0.5;
+}
+
+div:not(:hover)>button {
+  opacity: 0;
+}
+
+button:nth-of-type(1) {
+  left: 20px;
+  background-image: url(/images/Vector.svg);
+}
+
+button:nth-of-type(2) {
+  right: 20px;
+  background-image: url(/images/Vector2.svg);
+}
+
+/*Start*/
+
+.start {
+  display: grid;
+  gap: 30px;
+  grid-template-rows: 370px 370px 370px;
+  grid-template-columns: 370px 370px 370px ;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+
+.Melgoza {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.Tom {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.John {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.Federico {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.Horner {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.Rotker {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+/*center*/
+
+.center {
+  display: grid;
+  grid-template-rows: 370px 770px 370px;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+
+.Oulashin {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.Fowler {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.Dave {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.February {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+/*End*/
+
+.end {
+  display: grid;
+  grid-template-rows: 370px 370px 370px 370px 370px;
+  grid-template-columns: 370px 370px 370px;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.Pooja {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.Devn {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.Dom {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.Seth {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.Sincerely {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+.Doyle {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.Noah {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.Melissa {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.Brooke {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+.August {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
